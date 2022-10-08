@@ -14,11 +14,11 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'imagedups'
 DESCRIPTION = 'Find/Delete duplicated images'
-URL = 'https://github.com/chinalu/imagedups'
-EMAIL = 'chinalu@gmail.com'
-AUTHOR = 'Bill Lue'
-REQUIRES_PYTHON = '>=3.5.0'
-VERSION = '0.1.0'
+URL = ''
+EMAIL = ''
+AUTHOR = '刺猬粑粑'
+REQUIRES_PYTHON = '>=3.6.0'
+VERSION = '1.0.1'
 
 # What packages are optional?
 EXTRAS = {
@@ -43,11 +43,11 @@ except FileNotFoundError:
 
 # Import the README and use it as the long-description.
 # Note: this will only work if 'README.md' is present in your MANIFEST.in file!
-try:
-    with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
-        long_description = '\n' + f.read()
-except FileNotFoundError:
-    long_description = DESCRIPTION
+# try:
+#     with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
+#         long_description = '\n' + f.read()
+# except FileNotFoundError:
+#     long_description = DESCRIPTION
 
 # Load the package's __version__.py module as a dictionary.
 about = {}
